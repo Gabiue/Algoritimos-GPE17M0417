@@ -1,5 +1,0 @@
-# Ignorar arquivos .exe
-*.exe
-
-# Ignorar a pasta output
-/output
