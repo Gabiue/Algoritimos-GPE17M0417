@@ -1,5 +1,30 @@
-# Ignorar arquivos .exe
+# Ignorar arquivos .exe 
 **/*.exe
 
-# Ignorar a pasta output
-/output
+# Ignorar arquivos de build 
+**/*.out
+**/*.o
+
+# Ignorar pastas de build
+/build/
+/bin/
+/obj/
+
+# Ignorar pasta output 
+**/output/
+
+# Ignorar arquivos de configuração temporários
+*.log
+*.tmp
+
+# Ignorar arquivos gerados pelo sistema operacional
+.DS_Store
+Thumbs.db
+
+# Ignorar arquivos de editor de texto 
+.vscode/
+.idea/
+*.swp
+
+# Ignorar outros arquivos de backup ou temporários
+*~
