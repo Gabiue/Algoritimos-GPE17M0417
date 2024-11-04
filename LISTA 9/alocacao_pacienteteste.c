@@ -18,3 +18,23 @@ void alocacao_paciente(paciente_t *paciente, char *nome, short idade) {
 }
 
 
+int main() {
+    paciente_t paciente;
+    char nome[100];
+    short idade;
+
+    printf("Digite o nome do paciente: ");
+    fgets(nome, 100, stdin);
+    nome[strcspn(nome, "\n")] = '\0'; // Remove a quebra de linha
+
+    printf("Digite a idade do paciente: ");
+    scanf("%hd", &idade);
+
+    alocacao_paciente(&paciente, nome, idade);
+
+    printf("Paciente: %s\n", paciente.nome);
+    printf("Idade: %d\n", paciente.idade);
+    printf("Leito alocado: %d\n", paciente.leito);
+
+    return 0;
+}
