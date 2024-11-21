@@ -1,0 +1,28 @@
+3 Acerca da manipução de Arquivos.
+ a) Explique os diferentes modos de abertura de arquivos.
+
+    A função fopen é usada para abrir arquivos em C e ela recebe dois argumentos: Nome do arquivo e modo de abertura.
+        Os modos são:
+            "r" para ler o arquivo.
+            "w" para escrever no arquivo.
+            "a" para adcionar no arquivo.
+            "r+" para ler e escrever o arquivo.
+            "w+" para ler e escrever no arquivo.
+            "a+" para ler e adcionar no arquivo.
+            
+        
+        Para os arquivos binários(.dat)é: 
+            "rb" para ler o arquivo.
+            "wb" para escrever no arquivo.
+            "ab" para adcionar no arquivo.
+            "rb+" para ler e escrever o arquivo.
+            "wb+" para ler e escrever no arquivo.
+            "ab+" para ler e adcionar no arquivo.
+            
+
+
+ b) Explique o funcionamento das funções fgets, fprintf, fread, fwrite 
+    fgets: lê uma linha de texto do arquivo. 
+    fprintf: escreve um texto formatado no arquivo.
+    fread: lê dados binários de um arquivo para a memória.
+    fwrite: escreve dados binários de memória para um arquivo.

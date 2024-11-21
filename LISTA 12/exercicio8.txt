@@ -1,0 +1,20 @@
+8 O que é um vetor?
+    Explique o funcionameno de um vetor e como ele é tratado no C.
+
+        Em C, um vetor é uma forma de agrupar múltiplos valores em uma única variável, acessando-os por um índice.
+            
+            Você pode declarar o vetor de duas formas. 
+                Uma utilizando o espaço que precisa:   
+                    int vetor[10];
+                Ou utilizando quais valores já estão dentro do vetor:
+                    int vetor [5] = {1,2,3,4,5};
+            Os valores dos vetores podem ser manipulados atráves do seu indice, que começa do zero.Então por exemplo o vetor:
+                    int vetor [5] = {1,2,3,4,5}; possui 5 indices, começando do 0.
+                                     0 1 2 3 4 <- esses são os indices. 
+            Então posso manipular os valores.
+                    int vetor [4] = 15000;
+                        agora o indice 4 do vetor tem o valor de 15000
+        
+        Vetor também um ponteiro que aponta para o primeiro elemento da sequência. 
+        
+

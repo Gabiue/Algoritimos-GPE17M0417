@@ -1,0 +1,20 @@
+ 2 Acerca de alocação dinâmica de memória.
+ Responda:
+ a) Qual o comportamento da função free?
+    A função free serve para liberar a memória que foi alocada dinamicamente com o uso da função malloc ou calloc.
+
+
+ b) Após chamar free, o ponteiro pode ser utilizado?
+    Não, o ponteiro não pode ser mais utilizado. O ponteiro ainda existe, porém não é possível manipular mais ou acessar essa memória. 
+
+ c) O que causa vazamentos de memória? 
+    Os vazamentos de memória ocorrem quando a memória alocada dinamicamente não é liberada com o uso da função free.
+
+ d) O que a instrução malloc retorna quando não consegue realizar a alocação?
+    Ela retorna um ponteiro nulo, o NULL.
+
+ e) Explique a instrução calloc.
+    A função calloc assim como a malloc serve para alocar memória dinamicamente, a diferença está que o calloc aceita dois tipos de argumentos: o número de elementos e o tamanho de cada elemento.
+
+ f) Qual a diferença entre as instruções malloc e calloc? 
+    Malloc contem lixo de memória, calloc inicializa todos os bytes com 0. Malloc usa só o argumento de quanto espaço armazenar, calloc recebe dois argumentos, o tamanho e a quantidade. E por fim a malloc é mais rápida e a calloc tende ser mais lenta devido a inicializão.
